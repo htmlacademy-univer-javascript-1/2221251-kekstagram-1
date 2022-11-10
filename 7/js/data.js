@@ -1,4 +1,4 @@
-import {getRandomNumberBetween, checkStringLength, getRandomArrayElement} from "util.js";
+import {getRandomNumberBetween, checkStringLength, getRandomArrayElement} from "./util.js";
 
 const USER_NAMES = [
 	"Александр",
