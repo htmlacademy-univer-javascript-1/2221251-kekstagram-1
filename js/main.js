@@ -1,4 +1,8 @@
-import {createPostList} from "data.js";
+import { createPostList } from "./data.js";
+import {createPosts, templatePhoto} from "./thumbnail.js";
 
 
-let posts = createPostList(25);
+var pictures = document.querySelector('.pictures');
+var posts = createPostList(25);
+
+pictures.append(createPosts(posts, templatePhoto));
